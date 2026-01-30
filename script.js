@@ -197,8 +197,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: 'CALIPLATE 🪐',
                             promoEligible: true,
                             type: 'Filtrer',
-                            image: 'ProductHalloween.png',
-                            video: 'VideoHalloween.mp4',
+                            image: 'ProductRuntz.png',
+                            video: 'VideoRuntz.mp4',
                             description: '🇺🇸 MADE IN USA \n\n ✅ Produit certifié \n\n 🔍 QR Code d’authentification inclus \n Qualité alimentaire.',
                             tarifs: [
                                 { weight: '1g', price: 30.00 },
