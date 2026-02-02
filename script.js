@@ -207,6 +207,23 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 980.00 },
                                 { weight: '100g', price: 1850.00 },
                             ]
+                        },
+                        {
+                            id: '🇲🇦 73u 🧙🏻‍♂️',
+                            flag: '🇺🇸',
+                            name: '🇲🇦 73u 🧙🏻‍♂️',
+                            farm: '🍁 No Farm 🍁',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'Product7.jpg',
+                            video: 'Video7.mp4',
+                            description: '🔥 NEW DROP 🔥 \n\n Frappe de filtré 🇲🇦 \n  Microns : 73u \n\n 📲 Dispo maintenant \n ⚠️ Quantités limitées',
+                            tarifs: [
+                                { weight: '10g', price: 60.00 },
+                                { weight: '25g', price: 140.00 },
+                                { weight: '50g', price: 200.00 },
+                                { weight: '100g', price: 360.00 },
+                            ]
                         }
                       /*   {
                             id: '❄️ FRESH FROZEN 🔥',
