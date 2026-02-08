@@ -191,6 +191,23 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '',
                     products: [
                         {
+                            id: 'Cocolato 🍫',
+                            flag: '💎',
+                            name: 'Cocolato 🍫',
+                            farm: 'Sticky Fingers 🌱',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductCoco.jpg',
+                            video: 'VideoCoco.mp4',
+                            description: '🚨 EXCLU 2026 🚨 \n\n 💎 Nouvelle frappe filtrée DISPONIBLE \n La team, du très lourd vient d’atterrir 💥 \n\n 🔬 Microns : 90u \n Texture premium, résine ultra clean, qualité au rendez-vous 😮‍🔥 \n\n ⚡ Quantités limitées – premiers arrivés, premiers servis ⚡ ',
+                            tarifs: [
+                                { weight: '10g', price: 90.00 },
+                                { weight: '25g', price: 180.00 },
+                                { weight: '50g', price: 320.00 },
+                                { weight: '100g', price: 570.00 },
+                            ]
+                        },
+                        {
                             id: 'RUNTZ 🔥',
                             flag: '🇺🇸',
                             name: 'RUNTZ 🔥',
@@ -450,7 +467,7 @@ document.addEventListener('DOMContentLoaded', function () {
                          id: '🔥 Cali US 🇺🇸 🔥',
                          flag: '🇺🇸',
                          name: '🔥 Cali US 🇺🇸 🔥',
-                         farm: '🇺🇸 NO FARMA',
+                         farm: '🇺🇸 NO FARM',
                          promoEligible: false,
                          type: 'Weed',
                          image: 'ProductCali.png',
@@ -462,6 +479,40 @@ document.addEventListener('DOMContentLoaded', function () {
                              { weight: '50g', price: 320.00 },
                              { weight: '100g', price: 550.00 },
                          ]
+                     },
+                      {
+                         id: 'Cherry.R 🍒',
+                         flag: '🇺🇸',
+                         name: 'Cherry.R 🍒',
+                         farm: '🇺🇸 NO FARM',
+                         promoEligible: false,
+                         type: 'Weed',
+                         image: 'ProductCherry.jpg',
+                         video: 'VideoCherry.mp4',
+                         description: '🚨 NOUVEAUTÉ – CALI US 🚨 \n\n La frappe venue tout droit de Californie 🇺🇸 \n Qualité premium, grosse puissance 💥 \n\n Dispo maintenant ⏳🔥',
+                         tarifs: [
+                             { weight: '10g', price: 100.00 },
+                             { weight: '25g', price: 200.00 },
+                             { weight: '50g', price: 340.00 },
+                             { weight: '100g', price: 580.00 },
+                         ]
+                     },
+                      {
+                         id: 'Glacier 🍦',
+                         flag: '🇺🇸',
+                         name: 'Glacier 🍦',
+                         farm: '🇺🇸 NO FARM',
+                         promoEligible: false,
+                         type: 'Weed',
+                         image: 'ProductGlacier.jpg',
+                         video: 'VideoGlacier.mp4',
+                         description: '🚨 NOUVEAUTÉ – CALI US 🚨 \n\n La frappe venue tout droit de Californie 🇺🇸 \n Qualité premium, grosse puissance 💥 \n\n Dispo maintenant ⏳🔥',
+                         tarifs: [
+                            { weight: '10g', price: 100.00 },
+                            { weight: '25g', price: 200.00 },
+                            { weight: '50g', price: 340.00 },
+                            { weight: '100g', price: 580.00 },
+                        ]
                      },
                 
                  ]
