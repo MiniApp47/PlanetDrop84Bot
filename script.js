@@ -150,20 +150,20 @@ document.addEventListener('DOMContentLoaded', function () {
                         {
                             id: 'Mousseux',
                             flag: '🇪🇸',
-                            name: 'Jaune Mousse 🌰',
+                            name: 'MOUSSEUX 🥐',
                             farm: '🌾 No Farm 🌾',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductOg1.png',
                             video: 'VideoOg1.mp4',
-                            description: '✨ Nouveauté exclusive ✨ \n\n Super mousseux premium disponible dès maintenant.\n Texture onctueuse 💎',
+                            description: 'New drop 🚨 \n\n La frappe de mousseux vient d’arriver la team 💨🔥 \n Stock limité, premier arrivé premier servi.',
                             tarifs: [
-                                { weight: '25g', price: 80.00 },
+                                { weight: '20g', price: 80.00 },
                                 { weight: '50g', price: 140.00 },
                                 { weight: '100g', price: 250.00 },
                             ]
                         },
-                        {
+                       /*  {
                             id: 'Halloween',
                             flag: '🇪🇸',
                             name: 'Halloween 🎃',
@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 140.00 },
                                 { weight: '100g', price: 250.00 },
                             ]
-                        }
+                        } */
                     ]
                 },
 
@@ -379,76 +379,100 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategWeed.png', // Ton image de catégorie Weed
 
             farms: [
+                {
+                    id: 'USA',
+                    name: 'Cali USA 🇺🇸',
+                    image: '',
+                    badgeText: '',
+                    products: [
+                         {
+                            id: 'Biscotti 🥞',
+                            flag: '🇺🇸',
+                            name: 'Biscotti 🥞',
+                            farm: '🇺🇸 NO FARM',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductBis.jpg',
+                            video: 'VideoBis.mp4',
+                            description: '🚨 NOUVEAUTÉ – CALI US 🚨 \n La frappe venue tout droit de Californie 🇺🇸 \n Qualité premium, grosse puissance 💥 \n\n Dispo maintenant ⏳🔥',
+                            tarifs: [
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 340.00 },
+                                { weight: '100g', price: 580.00 },
+                            ]
+                        },
+                         {
+                            id: '🔥 Cali US 🇺🇸 🔥',
+                            flag: '🇺🇸',
+                            name: '🔥 Cali US 🇺🇸 🔥',
+                            farm: '🇺🇸 NO FARM',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductCali.png',
+                            video: 'VideoCali.mp4',
+                            description: 'Qualité premium, dispo maintenant. ✨',
+                            tarifs: [
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 180.00 },
+                                { weight: '50g', price: 320.00 },
+                                { weight: '100g', price: 550.00 },
+                            ]
+                        },
+                         {
+                            id: 'Cherry.R 🍒',
+                            flag: '🇺🇸',
+                            name: 'Cherry.R 🍒',
+                            farm: '🇺🇸 NO FARM',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductCherry.jpg',
+                            video: 'VideoCherry.mp4',
+                            description: '🚨 NOUVEAUTÉ – CALI US 🚨 \n\n La frappe venue tout droit de Californie 🇺🇸 \n Qualité premium, grosse puissance 💥 \n\n Dispo maintenant ⏳🔥',
+                            tarifs: [
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 340.00 },
+                                { weight: '100g', price: 580.00 },
+                            ]
+                        },
+                         {
+                            id: 'Glacier 🍦',
+                            flag: '🇺🇸',
+                            name: 'Glacier 🍦',
+                            farm: '🇺🇸 NO FARM',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductGlacier.jpg',
+                            video: 'VideoGlacier.mp4',
+                            description: '🚨 NOUVEAUTÉ – CALI US 🚨 \n\n La frappe venue tout droit de Californie 🇺🇸 \n Qualité premium, grosse puissance 💥 \n\n Dispo maintenant ⏳🔥',
+                            tarifs: [
+                               { weight: '10g', price: 100.00 },
+                               { weight: '25g', price: 200.00 },
+                               { weight: '50g', price: 340.00 },
+                               { weight: '100g', price: 580.00 },
+                           ]
+                        },
+                   
+                    ]
+                },
                    // --- Sous-Catégorie : CALI USA 🇺🇸 (J'y ai mis tes Wizard Trees) ---
                    {
-                    id: 'USA',
-                    name: 'Fleurs USA 🇺🇸',
+                    id: 'Amnesia',
+                    name: 'Amnesia 💐',
                     image: '',
                     badgeText: '',
                     products: [
                    
                     ]
-                },
-                // --- Sous-Catégorie : TOP SHELF SPAIN 🇪🇸 ---
-                {
-                    id: 'SPAIN_TOP',
-                    name: 'Fleurs ESPAGNOL 🇪🇸',
-                    image: '', // ⚠️ Mets une image ici (drapeau ou autre)
-                    badgeText: '',
-                    products: [
-                       /*  {
-                            id: '',
-                            flag: '🇪🇸',
-                            name: '🧽  🧽',
-                            farm: '',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductOg.png', // ⚠️ A changer
-                            video: '.mov',
-                            description: '- Jaune crémeux comme on aime avec bonne défonce  🚬 \n -super odeur de bonne plante 🌱 quand on connais les deux fleur d’où il vien on comprend🏆🪴 🏆 \n - Saison 2025 ⌛️',
-                            tarifs: [
-                                { weight: '10g', price: 40.00 },
-                                { weight: '25g', price: 100.00 },
-                                { weight: '50g', price: 160.00 },
-                                { weight: '100g', price: 280.00 },
-
-                            ]
-                        } */
-                    ]
-                },
-
-                // --- Sous-Catégorie : CALI CANADIES 🇨🇦 ---
-                {
-                    id: 'CALI_CANADIES',
-                    name: 'Fleurs CANADIENNE 🇨🇦',
-                    image: '', // ⚠️ Mets une image ici
-                    badgeText: '',
-                    products: [
-                       /*  {
-                            id: 'PurpleBud',
-                            flag: '🇨🇦',
-                            name: '_Purple Bud 🦄♒️',
-                            farm: '🌾 No Farm 🌾',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductBud.png', // ⚠️ A changer
-                            video: 'VideoBud.mov',
-                            description: 'Purple Bud est munie de puissantes génétiques au sein desquelles on retrouve l’Hindu Kush, la Purple Kush et une sativa jamaïcaine ainsi qu’une afghane inconnues. Avec ses couleurs éclatantes et séduisantes, la Purple Bud est une variété à dominance indica à la courte stature qui est un choix idéal pour les petits espaces.',
-                            tarifs: [
-                                { weight: '10g', price: 100.00 },
-                                { weight: '25g', price: 210.00 },
-                                { weight: '50g', price: 330.00 },
-                                { weight: '100g', price: 630.00 },
-                            ]
-                        } */
-                    ]
                 }
+              
             ]
         },
         // ============================================================
         // CATEGORIE 4 :  CALI 🔝
         // ============================================================
-        {
+       /*  {
             id: 'CALI 🔝',
             name: 'CALI 🔝',
             type: 'CALI 🔝',
@@ -457,68 +481,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
             farms: [
                 // --- Sous-Catégorie : CALI USA 🇺🇸 (J'y ai mis tes Wizard Trees) ---
-                {
-                 id: 'USA',
-                 name: 'Cali USA 🇺🇸',
-                 image: '',
-                 badgeText: '',
-                 products: [
-                      {
-                         id: '🔥 Cali US 🇺🇸 🔥',
-                         flag: '🇺🇸',
-                         name: '🔥 Cali US 🇺🇸 🔥',
-                         farm: '🇺🇸 NO FARM',
-                         promoEligible: false,
-                         type: 'Weed',
-                         image: 'ProductCali.png',
-                         video: 'VideoCali.mp4',
-                         description: 'Qualité premium, dispo maintenant. ✨',
-                         tarifs: [
-                             { weight: '10g', price: 80.00 },
-                             { weight: '25g', price: 180.00 },
-                             { weight: '50g', price: 320.00 },
-                             { weight: '100g', price: 550.00 },
-                         ]
-                     },
-                      {
-                         id: 'Cherry.R 🍒',
-                         flag: '🇺🇸',
-                         name: 'Cherry.R 🍒',
-                         farm: '🇺🇸 NO FARM',
-                         promoEligible: false,
-                         type: 'Weed',
-                         image: 'ProductCherry.jpg',
-                         video: 'VideoCherry.mp4',
-                         description: '🚨 NOUVEAUTÉ – CALI US 🚨 \n\n La frappe venue tout droit de Californie 🇺🇸 \n Qualité premium, grosse puissance 💥 \n\n Dispo maintenant ⏳🔥',
-                         tarifs: [
-                             { weight: '10g', price: 100.00 },
-                             { weight: '25g', price: 200.00 },
-                             { weight: '50g', price: 340.00 },
-                             { weight: '100g', price: 580.00 },
-                         ]
-                     },
-                      {
-                         id: 'Glacier 🍦',
-                         flag: '🇺🇸',
-                         name: 'Glacier 🍦',
-                         farm: '🇺🇸 NO FARM',
-                         promoEligible: false,
-                         type: 'Weed',
-                         image: 'ProductGlacier.jpg',
-                         video: 'VideoGlacier.mp4',
-                         description: '🚨 NOUVEAUTÉ – CALI US 🚨 \n\n La frappe venue tout droit de Californie 🇺🇸 \n Qualité premium, grosse puissance 💥 \n\n Dispo maintenant ⏳🔥',
-                         tarifs: [
-                            { weight: '10g', price: 100.00 },
-                            { weight: '25g', price: 200.00 },
-                            { weight: '50g', price: 340.00 },
-                            { weight: '100g', price: 580.00 },
-                        ]
-                     },
-                
-                 ]
-             },
+
             ]
-        }
+        } */
 
 
                 // 4. 120U PREMIUM (Avec les options de goût qu'on a ajoutées)
