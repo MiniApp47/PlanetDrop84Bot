@@ -148,6 +148,22 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '',
                     products: [
                         {
+                            id: '✨ LA MOUSS ✨',
+                            flag: '🇪🇸',
+                            name: '✨ LA MOUSS ✨',
+                            farm: '🌾 No Farm 🌾',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductLa.jpg',
+                            video: 'VideoLa.mp4',
+                            description: '🚨 GROSSE EXCLU LA TEAM MOUSSEUX 🚨 \n\n 🔥 Venu tout droit de Californie 🇺🇸\n ✨ Qualité Premium – mousseux lourd, propre et puissant \n 📩 Disponible maintenant – stock limité',
+                            tarifs: [
+                                { weight: '20g', price: 100.00 },
+                                { weight: '50g', price: 180.00 },
+                                { weight: '100g', price: 310.00 },
+                            ]
+                        },
+                        {
                             id: 'Mousseux',
                             flag: '🇪🇸',
                             name: 'MOUSSEUX 🥐',
