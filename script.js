@@ -166,17 +166,17 @@ document.addEventListener('DOMContentLoaded', function () {
                         {
                             id: 'Mousseux',
                             flag: '🇪🇸',
-                            name: 'MOUSSEUX 🥐',
+                            name: 'WeedHut 🦸',
                             farm: '🌾 No Farm 🌾',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductOg1.png',
                             video: 'VideoOg1.mp4',
-                            description: 'New drop 🚨 \n\n La frappe de mousseux vient d’arriver la team 💨🔥 \n Stock limité, premier arrivé premier servi.',
+                            description: '',
                             tarifs: [
-                                { weight: '20g', price: 80.00 },
-                                { weight: '50g', price: 140.00 },
-                                { weight: '100g', price: 250.00 },
+                                { weight: '25g', price: 90.00 },
+                                { weight: '50g', price: 150.00 },
+                                { weight: '100g', price: 260.00 },
                             ]
                         },
                        /*  {
