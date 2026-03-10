@@ -170,13 +170,13 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: '🌾 No Farm 🌾',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'ProductOg1.png',
+                            image: 'ProductOg1.jpg',
                             video: 'VideoOg1.mp4',
                             description: '',
                             tarifs: [
-                                { weight: '25g', price: 90.00 },
-                                { weight: '50g', price: 150.00 },
-                                { weight: '100g', price: 260.00 },
+                                { weight: '25g', price: 110.00 },
+                                { weight: '50g', price: 170.00 },
+                                { weight: '100g', price: 280.00 },
                             ]
                         },
                        /*  {
@@ -401,7 +401,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
-                         {
+                         /* {
                             id: 'Biscotti 🥞',
                             flag: '🇺🇸',
                             name: 'Biscotti 🥞',
@@ -417,7 +417,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 340.00 },
                                 { weight: '100g', price: 580.00 },
                             ]
-                        },
+                        }, */
                        /*   {
                             id: '🔥 Cali US 🇺🇸 🔥',
                             flag: '🇺🇸',
@@ -435,7 +435,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 550.00 },
                             ]
                         }, */
-                         {
+                       /*   {
                             id: 'Cherry.R 🍒',
                             flag: '🇺🇸',
                             name: 'Cherry.R 🍒',
@@ -469,7 +469,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                { weight: '100g', price: 580.00 },
                            ]
                         },
-                   
+                    */
                     ]
                 },
                    // --- Sous-Catégorie : CALI USA 🇺🇸 (J'y ai mis tes Wizard Trees) ---
