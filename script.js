@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         {
                             id: 'Mousseux',
                             flag: '🇪🇸',
-                            name: 'WeedHut 🦸',
+                            name: 'Simpson 🍩',
                             farm: '🌾 No Farm 🌾',
                             promoEligible: true,
                             type: 'Hash',
@@ -174,8 +174,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoOg1.mp4',
                             description: '',
                             tarifs: [
-                                { weight: '25g', price: 110.00 },
-                                { weight: '50g', price: 170.00 },
+                                { weight: '25g', price: 100.00 },
+                                { weight: '50g', price: 160.00 },
                                 { weight: '100g', price: 280.00 },
                             ]
                         },
@@ -479,7 +479,23 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
-                   
+                        {
+                            id: 'Amnesia premium',
+                            flag: '🇺🇸',
+                            name: 'Amnesia premium 🏆',
+                            farm: '🌿 NO FARM',
+                            promoEligible: false,
+                            type: 'Amne',
+                            image: 'ProductAmne.jpg',
+                            video: 'VideoAmne.mp4',
+                            description: '🔥 NOUVEAUTÉ DISPONIBLE 🔥 \n\n ⚡ Foudre Damnesia premium ⚡ \n Arôme puissant • Qualité sélectionnée 🌿 \n\n Une fleur qui frappe fort par son goût et sa qualité ✨',
+                            tarifs: [
+                               { weight: '10g', price: 80.00 },
+                               { weight: '25g', price: 160.00 },
+                               { weight: '50g', price: 280.00 },
+                               { weight: '100g', price: 500.00 },
+                           ]
+                        },
                     ]
                 }
               
