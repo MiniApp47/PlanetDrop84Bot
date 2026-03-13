@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
-                        /* {
+                        {
                             id: 'Cocolato 🍫',
                             flag: '💎',
                             name: 'Cocolato 🍫',
@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 320.00 },
                                 { weight: '100g', price: 570.00 },
                             ]
-                        }, */
+                        },
                         {
                             id: 'RUNTZ 🔥',
                             flag: '🇺🇸',
