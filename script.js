@@ -148,10 +148,10 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '',
                     products: [
                         {
-                            id: '✨ LA MOUSS ✨',
+                            id: 'ICE CREAM CAKE 🧁',
                             flag: '🇪🇸',
-                            name: '✨ LA MOUSS ✨',
-                            farm: '🌾 No Farm 🌾',
+                            name: 'ICE CREAM CAKE 🧁',
+                            farm: 'CaliMousse 🧽',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductLa.jpg',
