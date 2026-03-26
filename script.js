@@ -207,6 +207,57 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '',
                     products: [
                         {
+                            id: '🍎 Apple Banana 🍌',
+                            flag: '💎',
+                            name: '🍎 Apple Banana 🍌',
+                            farm: '🔥 GOLD MOUNTAINS FARMS 🔥',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductAB.jpg',
+                            video: 'VideoAB.mp4',
+                            description: '📊 Qualité : 120u   \n\n  📩 Contact en privé pour plus d’infos  \n 🚚 Disponible dès maintenant  \n\n  #Qualité #Nouveauté #Disponible ',
+                            tarifs: [
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '50g', price: 290.00 },
+                                { weight: '100g', price: 510.00 },
+                            ]
+                        },
+                        {
+                            id: 'Forbidden Fruit 🧉',
+                            flag: '💎',
+                            name: 'Forbidden Fruit 🧉',
+                            farm: '🔥 GOLD MOUNTAINS FARMS 🔥',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductFF.jpg',
+                            video: 'VideoFF.mp4',
+                            description: '📊 Qualité : 120u   \n\n  📩 Contact en privé pour plus d’infos  \n 🚚 Disponible dès maintenant  \n\n  #Qualité #Nouveauté #Disponible ',
+                            tarifs: [
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '50g', price: 290.00 },
+                                { weight: '100g', price: 510.00 },
+                            ]
+                        },
+                        {
+                            id: '🌿 Filtré 45u',
+                            flag: '💎',
+                            name: '🌿 Filtré 45u',
+                            farm: '🇨🇭 Swiss Farms 🇨🇭',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductFU.jpg',
+                            video: 'VideoFU.mp4',
+                            description: 'Qualité au rendez-vous 🔥\n  Disponible maintenant 📩',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 140.00 },
+                                { weight: '50g', price: 230.00 },
+                                { weight: '100g', price: 390.00 },
+                            ]
+                        },
+                        {
                             id: 'Strawberry Colato 🍓',
                             flag: '💎',
                             name: 'Strawberry Colato 🍓',
