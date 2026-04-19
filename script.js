@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
-                        {
+                        /* {
                             id: 'ICE CREAM CAKE 🧁',
                             flag: '🇪🇸',
                             name: 'ICE CREAM CAKE 🧁',
@@ -162,11 +162,11 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 180.00 },
                                 { weight: '100g', price: 310.00 },
                             ]
-                        },
+                        }, */
                         {
                             id: 'Mousseux',
                             flag: '🇪🇸',
-                            name: 'Simpson 🍩',
+                            name: 'FreeDom Mousse 🧼',
                             farm: '🌾 No Farm 🌾',
                             promoEligible: true,
                             type: 'Hash',
@@ -206,24 +206,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
-                        {
-                            id: 'STATIC RED VELVET 🌟',
-                            flag: '💎',
-                            name: 'STATIC RED VELVET 🌟',
-                            farm: '🔥 GOLD MOUNTAINS FARMS 🔥',
-                            promoEligible: true,
-                            type: 'Filtrer',
-                            image: 'ProductST.jpg',
-                            video: 'VideoST.mp4',
-                            description: '🚨 Drop exclusif janvier 2026 🚨 \n\n 🔥 STATIC RED VELVET 135-73U - une expérience inédite dans le monde du cannabis. Pour les connaisseurs, chaque gramme est une œuvre d’art soigneusement cultivée pour des arômes et effets d’exception.\n\n 🔒 Stocks limités, ne manquez pas votre chance de découvrir cette variété unique ! ',
-                            tarifs: [
-                                { weight: '10g', price: 70.00 },
-                                { weight: '25g', price: 150.00 },
-                                { weight: '50g', price: 250.00 },
-                                { weight: '100g', price: 420.00 },
-                            ]
-                        },
-                        {
+                       /*  {
                             id: '🍎 Apple Banana 🍌',
                             flag: '💎',
                             name: '🍎 Apple Banana 🍌',
@@ -239,7 +222,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 290.00 },
                                 { weight: '100g', price: 510.00 },
                             ]
-                        },
+                        }, */
                         {
                             id: 'Forbidden Fruit 🧉',
                             flag: '💎',
@@ -257,7 +240,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 510.00 },
                             ]
                         },
-                        {
+                       /*  {
                             id: '🌿 Filtré 45u',
                             flag: '💎',
                             name: '🌿 Filtré 45u',
@@ -273,8 +256,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 230.00 },
                                 { weight: '100g', price: 390.00 },
                             ]
-                        },
-                        {
+                        }, */
+                      /*   {
                             id: 'Strawberry Colato 🍓',
                             flag: '💎',
                             name: 'Strawberry Colato 🍓',
@@ -341,8 +324,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 320.00 },
                                 { weight: '100g', price: 570.00 },
                             ]
-                        },
-                        {
+                        }, */
+                      /*   {
                             id: 'RUNTZ 🔥',
                             flag: '🇺🇸',
                             name: 'RUNTZ 🔥',
@@ -359,8 +342,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 980.00 },
                                 { weight: '100g', price: 1850.00 },
                             ]
-                        },
-                        {
+                        }, */
+                       /*  {
                             id: '🇲🇦 73u 🧙🏻‍♂️',
                             flag: '🇺🇸',
                             name: '🇲🇦 73u 🧙🏻‍♂️',
@@ -376,7 +359,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 240.00 },
                                 { weight: '100g', price: 390.00 },
                             ]
-                        }
+                        } */
                       /*   {
                             id: '❄️ FRESH FROZEN 🔥',
                             flag: '🇲🇦',
@@ -496,6 +479,31 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         } */
                     ]
+                },
+                {
+                    id: 'Static',
+                    name: 'Static ⛈️',
+                    image: '',
+                    badgeText: '',
+                    products: [
+                       {
+                            id: 'STATIC RED VELVET 🌟',
+                            flag: '💎',
+                            name: 'STATIC RED VELVET 🌟',
+                            farm: '🔥 GOLD MOUNTAINS FARMS 🔥',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductST.jpg',
+                            video: 'VideoST.mp4',
+                            description: '🚨 Drop exclusif janvier 2026 🚨 \n\n 🔥 STATIC RED VELVET 135-73U - une expérience inédite dans le monde du cannabis. Pour les connaisseurs, chaque gramme est une œuvre d’art soigneusement cultivée pour des arômes et effets d’exception.\n\n 🔒 Stocks limités, ne manquez pas votre chance de découvrir cette variété unique ! ',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 150.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 420.00 },
+                            ]
+                        },
+                    ]
                 }
       
      
@@ -598,7 +606,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
-                        {
+                       /*  {
                             id: 'Amnesia premium',
                             flag: '🇺🇸',
                             name: 'Amnesia premium 🏆',
@@ -614,7 +622,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                { weight: '50g', price: 280.00 },
                                { weight: '100g', price: 500.00 },
                            ]
-                        },
+                        }, */
                     ]
                 }
               
