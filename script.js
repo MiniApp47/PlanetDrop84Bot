@@ -206,6 +206,40 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
+                          {
+                            id: 'Truffle Sundae 🍄',
+                            flag: '💎',
+                            name: 'Truffle Sundae 🍄',
+                            farm: 'Sticky Fingers 🌱',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductTru.jpg',
+                            video: 'VideoTru.mp4',
+                            description: '🚨 EXCLU 2026 🚨 \n\n 💎 Nouvelle frappe filtrée DISPONIBLE \n La team, du très lourd vient d’atterrir 💥 \n\n 🔬 Microns : 90u \n Texture premium, résine ultra clean, qualité au rendez-vous 😮‍🔥 \n\n ⚡ Quantités limitées – premiers arrivés, premiers servis ⚡ ',
+                            tarifs: [
+                                { weight: '10g', price: 90.00 },
+                                { weight: '25g', price: 180.00 },
+                                { weight: '50g', price: 320.00 },
+                                { weight: '100g', price: 570.00 },
+                            ]
+                        },
+                         {
+                            id: 'Strawberry Colato 🍓',
+                            flag: '💎',
+                            name: 'Strawberry Colato 🍓',
+                            farm: 'Sticky Fingers 🌱',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductColato.jpg',
+                            video: 'VideoColato.mp4',
+                            description: '🚨 EXCLU 2026 🚨 \n\n 💎 Nouvelle frappe filtrée DISPONIBLE \n La team, du très lourd vient d’atterrir 💥 \n\n 🔬 Microns : 90u \n Texture premium, résine ultra clean, qualité au rendez-vous 😮‍🔥 \n\n ⚡ Quantités limitées – premiers arrivés, premiers servis ⚡ ',
+                            tarifs: [
+                                { weight: '10g', price: 90.00 },
+                                { weight: '25g', price: 180.00 },
+                                { weight: '50g', price: 320.00 },
+                                { weight: '100g', price: 570.00 },
+                            ]
+                        },
                        /*  {
                             id: '🍎 Apple Banana 🍌',
                             flag: '💎',
@@ -283,23 +317,6 @@ document.addEventListener('DOMContentLoaded', function () {
                             type: 'Filtrer',
                             image: 'ProductBerry.jpg',
                             video: 'VideoBerry.mp4',
-                            description: '🚨 EXCLU 2026 🚨 \n\n 💎 Nouvelle frappe filtrée DISPONIBLE \n La team, du très lourd vient d’atterrir 💥 \n\n 🔬 Microns : 90u \n Texture premium, résine ultra clean, qualité au rendez-vous 😮‍🔥 \n\n ⚡ Quantités limitées – premiers arrivés, premiers servis ⚡ ',
-                            tarifs: [
-                                { weight: '10g', price: 90.00 },
-                                { weight: '25g', price: 180.00 },
-                                { weight: '50g', price: 320.00 },
-                                { weight: '100g', price: 570.00 },
-                            ]
-                        },
-                        {
-                            id: 'Truffle Sundae 🍄',
-                            flag: '💎',
-                            name: 'Truffle Sundae 🍄',
-                            farm: 'Sticky Fingers 🌱',
-                            promoEligible: true,
-                            type: 'Filtrer',
-                            image: 'ProductTru.jpg',
-                            video: 'VideoTru.mp4',
                             description: '🚨 EXCLU 2026 🚨 \n\n 💎 Nouvelle frappe filtrée DISPONIBLE \n La team, du très lourd vient d’atterrir 💥 \n\n 🔬 Microns : 90u \n Texture premium, résine ultra clean, qualité au rendez-vous 😮‍🔥 \n\n ⚡ Quantités limitées – premiers arrivés, premiers servis ⚡ ',
                             tarifs: [
                                 { weight: '10g', price: 90.00 },
