@@ -207,6 +207,22 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '',
                     products: [
                           {
+                            id: '73u',
+                            flag: '💎',
+                            name: '🦋 73u',
+                            farm: 'SNOOPDOGY FARMZ 😮‍💨',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'Product77.jpg',
+                            video: 'Video77.mp4',
+                            description: 'Découvrez le 73u d’exception signé SNOOPDOGY FARMZ – une extraction pure et de qualité supérieure qui vous promet une expérience unique.\n\n 🌿 Notes boisées et curé dans notre four, pour un goût et une sensation incomparable.\n\n 💯 Idéal pour les connaisseurs et les amateurs d’extraits premium. \n Stock limité, alors ne perdez pas de temps !',
+                            tarifs: [
+                                { weight: '25g', price: 100.00 },
+                                { weight: '50g', price: 180.00 },
+                                { weight: '100g', price: 350.00 },
+                            ]
+                        },
+                          {
                             id: 'Truffle Sundae 🍄',
                             flag: '💎',
                             name: 'Truffle Sundae 🍄',
