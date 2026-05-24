@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 350.00 },
                             ]
                         },
-                          {
+                        /*   {
                             id: 'Truffle Sundae 🍄',
                             flag: '💎',
                             name: 'Truffle Sundae 🍄',
@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 320.00 },
                                 { weight: '100g', price: 570.00 },
                             ]
-                        },
+                        }, */
                        /*  {
                             id: '🍎 Apple Banana 🍌',
                             flag: '💎',
@@ -273,7 +273,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 510.00 },
                             ]
                         }, */
-                        {
+                      /*   {
                             id: 'Forbidden Fruit 🧉',
                             flag: '💎',
                             name: 'Forbidden Fruit 🧉',
@@ -289,7 +289,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 290.00 },
                                 { weight: '100g', price: 510.00 },
                             ]
-                        },
+                        }, */
                        /*  {
                             id: '🌿 Filtré 45u',
                             flag: '💎',
@@ -639,7 +639,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
-                       /*  {
+                        {
                             id: 'Amnesia premium',
                             flag: '🇺🇸',
                             name: 'Amnesia premium 🏆',
@@ -655,7 +655,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                { weight: '50g', price: 280.00 },
                                { weight: '100g', price: 500.00 },
                            ]
-                        }, */
+                        },
                     ]
                 }
               
