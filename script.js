@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 310.00 },
                             ]
                         }, */
-                        {
+                       /*  {
                             id: 'Mousseux',
                             flag: '🇪🇸',
                             name: 'FreeDom Mousse 🧼',
@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 160.00 },
                                 { weight: '100g', price: 280.00 },
                             ]
-                        },
+                        }, */
                        /*  {
                             id: 'Halloween',
                             flag: '🇪🇸',
@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
-                          {
+                         /*  {
                             id: '73u',
                             flag: '💎',
                             name: '🦋 73u',
@@ -221,7 +221,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 180.00 },
                                 { weight: '100g', price: 350.00 },
                             ]
-                        },
+                        }, */
                         /*   {
                             id: 'Truffle Sundae 🍄',
                             flag: '💎',
@@ -519,7 +519,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
-                       {
+                      /*  {
                             id: 'STATIC RED VELVET 🌟',
                             flag: '💎',
                             name: 'STATIC RED VELVET 🌟',
@@ -535,7 +535,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 250.00 },
                                 { weight: '100g', price: 420.00 },
                             ]
-                        },
+                        }, */
                     ]
                 }
       
@@ -639,7 +639,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
-                        {
+                      /*   {
                             id: 'Amnesia premium',
                             flag: '🇺🇸',
                             name: 'Amnesia premium 🏆',
@@ -655,7 +655,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                { weight: '50g', price: 280.00 },
                                { weight: '100g', price: 500.00 },
                            ]
-                        },
+                        }, */
                     ]
                 }
               
