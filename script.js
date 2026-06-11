@@ -94,10 +94,10 @@ document.addEventListener('DOMContentLoaded', function () {
                     video: 'VideoSnow.mp4',
                     description: 'Notre foudre est dispo la team 💥 \n\n Qualité qui frappe fort 🥊🔥',
                     tarifs: [
-                        { weight: '1g', price: 50.00 },
-                        { weight: '2g', price: 90.00 },
-                        { weight: '5g', price: 200.00 },
-                        { weight: '10g', price: 380.00 },
+                        { weight: '1g', price: 60.00 },
+                        { weight: '2g', price: 110.00 },
+                        { weight: '5g', price: 220.00 },
+                        { weight: '10g', price: 400.00 },
                     ]
                 },
             
@@ -206,6 +206,40 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
+                        {
+                            id: ' El Mero  🚇',
+                            flag: '🇨🇭',
+                            name: 'El Mero 🚇',
+                            farm: '🇨🇭 SWISS FARMS 🇨🇭',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductEl.jpg',
+                            video: 'VideoEl.mp4',
+                            description: '🇨🇭 NOUVEAUTÉ SWISS FARMS 🇨🇭\n Découvrez le 120/45 « El Mero », un dry-sift d’exception pour les connaisseurs 🌿💎\n\n ✅ Pureté et puissance\n ✅ Raffinement ultime\n ✅ Saveur incomparable\n\n ⚡ Exclusivité SWISS FARMS – Réservez le vôtre avant rupture !\n 📩 Commande rapide et simple, pour les amateurs de qualité premium.',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 120.00 },
+                                { weight: '50g', price: 220.00 },
+                                { weight: '100g', price: 380.00 },
+                            ]
+                        },
+                        {
+                            id: 'Dry-sift 90u',
+                            flag: '💎',
+                            name: 'Dry-sift 90u 🌿✨',
+                            farm: 'GOLDEN MOUNTAINS FARMS 🏔️',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductDR.jpg',
+                            video: 'VideoDR.mp4',
+                            description: '🔥 NOUVEAU CHEZ GOLDEN MOUNTAINS FARMS 🔥\n Découvrez notre Dry-sift 90u Premium aux saveurs uniques : PASSION FRUIT / ORANGE BUD 🌿✨\n\n ✅ Qualité supérieure\n ✅ Raffinement extrême\n ✅ Pour les amateurs les plus exigeants\n \n 🎯 Exclusivité GOLDEN MOUNTAINS FARMS – Ne passez pas à côté !\n 📩 Commandez dès maintenant et profitez de ce concentré de finesse.',
+                            tarifs: [
+                                { weight: '10g', price: 90.00 },
+                                { weight: '25g', price: 160.00 },
+                                { weight: '50g', price: 280.00 },
+                                { weight: '100g', price: 480.00 },
+                            ]
+                        },
                          /*  {
                             id: '73u',
                             flag: '💎',
