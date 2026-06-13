@@ -147,6 +147,22 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
+                        {
+                            id: 'NICOLE KUSH 🌱',
+                            flag: '🇪🇸',
+                            name: 'NICOLE KUSH 🌱',
+                            farm: 'ORGANIC VALLEY FARMS 🏞️',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductNi.jpg',
+                            video: 'VideoNi.mp4',
+                            description: 'Arrivée de la variété NICOLE KUSH 🌱\n\n Une génétique qui se distingue par un profil aromatique riche et intense, avec des notes terreuses, florales et légèrement sucrées.\n\n Culture soignée, sélection premium, focus sur la qualité et la régularité 💎\n Pensée pour les amateurs de variétés bien travaillées et de terpènes marqués.',
+                            tarifs: [
+                                { weight: '25g', price: 100.00 },
+                                { weight: '50g', price: 170.00 },
+                                { weight: '100g', price: 300.00 },
+                            ]
+                        },
                         /* {
                             id: 'ICE CREAM CAKE 🧁',
                             flag: '🇪🇸',
