@@ -618,7 +618,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: '🇺🇸 NO FARM',
                             promoEligible: false,
                             type: 'Weed',
-                            image: 'ProductBlu.jpg',
+                            image: 'ProductBlu.png',
                             video: 'VideoBlu.mp4',
                             description: '🚨 NOUVEAUTÉ – CALI US 🚨 \n Certifié californienne 100% 🇺🇸🍭🍯',
                             tarifs: [
