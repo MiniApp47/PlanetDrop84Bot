@@ -611,6 +611,23 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
+                         {
+                            id: 'BLUE BERRY 🥞',
+                            flag: '🇺🇸',
+                            name: 'BLUE BERRY 🫐',
+                            farm: '🇺🇸 NO FARM',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductBlu.jpg',
+                            video: 'VideoBlu.mp4',
+                            description: '🚨 NOUVEAUTÉ – CALI US 🚨 \n Certifié californienne 100% 🇺🇸🍭🍯',
+                            tarifs: [
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 220.00 },
+                                { weight: '50g', price: 380.00 },
+                                { weight: '100g', price: 680.00 },
+                            ]
+                        }
                          /* {
                             id: 'Biscotti 🥞',
                             flag: '🇺🇸',
