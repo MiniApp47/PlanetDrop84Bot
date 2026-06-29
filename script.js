@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
-                        {
+                        /* {
                             id: 'NICOLE KUSH 🌱',
                             flag: '🇪🇸',
                             name: 'NICOLE KUSH 🌱',
@@ -161,6 +161,22 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 100.00 },
                                 { weight: '50g', price: 170.00 },
                                 { weight: '100g', price: 300.00 },
+                            ]
+                        }, */
+                        {
+                            id: 'CHOCOLONELY🍫',
+                            flag: '🇪🇸',
+                            name: 'CHOCOLONELY 🍫',
+                            farm: 'HONEY FARMS 🍯',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductHO.jpg',
+                            video: 'VideoHO.mp4',
+                            description: 'Arrivée de la variété CHOCOLONELY🍫\n\n Une génétique qui se distingue par un profil aromatique riche et intense, avec des notes terreuses, florales et légèrement sucrées.\n Culture soignée, sélection premium, focus sur la qualité et la régularité 💎\n Pensée pour les amateurs de variétés bien travaillées et de terpènes marqués.',
+                            tarifs: [
+                                { weight: '25g', price: 100.00 },
+                                { weight: '50g', price: 170.00 },
+                                { weight: '100g', price: 290.00 },
                             ]
                         },
                         /* {
@@ -222,6 +238,39 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
+                          {
+                            id: '🥇 73U ',
+                            flag: '💎',
+                            name: '🥇 73U ',
+                            farm: '🍁 No Farm 🍁',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductF.jpg',
+                            video: 'VideoF.mp4',
+                            description: 'RAPPORT QUALITÉ PRIX JAMAIS ÉGALER 🫡🤝💶',
+                            tarifs: [
+                                { weight: '25g', price: 110.00 },
+                                { weight: '50g', price: 190.00 },
+                                { weight: '100g', price: 360.00 },
+                            ]
+                        },
+                          {
+                            id: 'SUNSET SHERBET 🍹🍦🍑🍌🍓',
+                            flag: '💎',
+                            name: '🍹🍦 SUNSET SHERBET 🍑🍌🍓',
+                            farm: 'GOLDEN MOUNTAINS FARMS 🏔️',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductDR.jpg',
+                            video: 'VideoDR.mp4',
+                            description: '🔥 NOUVEAU CHEZ GOLDEN MOUNTAINS FARMS 🔥\n\n Découvrez notre Dry-sift 90u Premium aux saveurs uniques : SUNSET SHERBET 🍹🍦🍑🍌🍓\n ✅ Qualité supérieure \n ✅ Raffinement extrême\n ✅ Pour les amateurs les plus exigeants  \n\n 🎯 Exclusivité GOLDEN MOUNTAINS FARMS – Ne passez pas à côté !',
+                            tarifs: [
+                                { weight: '10g', price: 90.00 },
+                                { weight: '25g', price: 160.00 },
+                                { weight: '50g', price: 280.00 },
+                                { weight: '100g', price: 480.00 },
+                            ]
+                        },
                         {
                             id: ' El Mero  🚇',
                             flag: '🇨🇭',
@@ -239,7 +288,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 380.00 },
                             ]
                         },
-                        {
+                       /*  {
                             id: 'Dry-sift 90u',
                             flag: '💎',
                             name: 'Dry-sift 90u 🌿✨',
@@ -255,7 +304,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 280.00 },
                                 { weight: '100g', price: 480.00 },
                             ]
-                        },
+                        }, */
                          /*  {
                             id: '73u',
                             flag: '💎',
