@@ -164,15 +164,15 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         }, */
                         {
-                            id: 'CHOCOLONELY🍫',
+                            id: 'ORANGINHASH',
                             flag: '🇪🇸',
-                            name: 'CHOCOLONELY 🍫',
+                            name: 'ORANGINHASH 🍫',
                             farm: 'HONEY FARMS 🍯',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductHO.jpg',
                             video: 'VideoHO.mp4',
-                            description: 'Arrivée de la variété CHOCOLONELY🍫\n\n Une génétique qui se distingue par un profil aromatique riche et intense, avec des notes terreuses, florales et légèrement sucrées.\n Culture soignée, sélection premium, focus sur la qualité et la régularité 💎\n Pensée pour les amateurs de variétés bien travaillées et de terpènes marqués.',
+                            description: 'Arrivée de la variété ORANGINHASH\n\n Une génétique qui se distingue par un profil aromatique riche et intense, avec des notes terreuses, florales et légèrement sucrées.\n Culture soignée, sélection premium, focus sur la qualité et la régularité 💎\n Pensée pour les amateurs de variétés bien travaillées et de terpènes marqués.',
                             tarifs: [
                                 { weight: '25g', price: 100.00 },
                                 { weight: '50g', price: 170.00 },
@@ -238,7 +238,23 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
-                          {
+                         {
+                            id: 'SHERBIDDEN 🍹🍦🍑🍌🍓',
+                            flag: '💎',
+                            name: '🍑🍌🍓 SHERBIDDEN 🍹🍦',
+                            farm: '🍁 No Farm 🍁',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductF.jpg',
+                            video: 'VideoF.mp4',
+                            description: '🔥 NOUVEAUTÉE DE CHEZ DR CALI 👨‍⚕️ 🔥\n\n Découvrez notre Dry-sift 73u Premium aux saveurs uniques : SHERBIDDEN 🍹🍦🍑🍌🍓  \n ✅ Qualité supérieure   \n ✅ Raffinement extrême  \n ✅ Pour les amateurs les plus exigeants    \n\n 🎯 Exclusivité DR CALI – Ne passez pas à côté !',
+                            tarifs: [
+                                { weight: '25g', price: 110.00 },
+                                { weight: '50g', price: 190.00 },
+                                { weight: '100g', price: 360.00 },
+                            ]
+                        },
+                         /*  {
                             id: '🥇 73U ',
                             flag: '💎',
                             name: '🥇 73U ',
@@ -287,7 +303,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 220.00 },
                                 { weight: '100g', price: 380.00 },
                             ]
-                        },
+                        }, */
                        /*  {
                             id: 'Dry-sift 90u',
                             flag: '💎',
@@ -660,7 +676,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
-                         {
+                         /* {
                             id: 'BLUE BERRY 🥞',
                             flag: '🇺🇸',
                             name: 'BLUE BERRY 🫐',
@@ -676,7 +692,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 380.00 },
                                 { weight: '100g', price: 680.00 },
                             ]
-                        }
+                        } */
                          /* {
                             id: 'Biscotti 🥞',
                             flag: '🇺🇸',
