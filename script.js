@@ -249,9 +249,10 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoF.mp4',
                             description: '🔥 NOUVEAUTÉE DE CHEZ DR CALI 👨‍⚕️ 🔥\n\n Découvrez notre Dry-sift 73u Premium aux saveurs uniques : SHERBIDDEN 🍹🍦🍑🍌🍓  \n ✅ Qualité supérieure   \n ✅ Raffinement extrême  \n ✅ Pour les amateurs les plus exigeants    \n\n 🎯 Exclusivité DR CALI – Ne passez pas à côté !',
                             tarifs: [
-                                { weight: '25g', price: 110.00 },
-                                { weight: '50g', price: 190.00 },
-                                { weight: '100g', price: 360.00 },
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 140.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 440.00 },
                             ]
                         },
                          /*  {
