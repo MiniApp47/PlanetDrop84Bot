@@ -147,6 +147,22 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
+                        {
+                            id: 'Mousseux',
+                            flag: '🇪🇸',
+                            name: 'Mousseux 🧼',
+                            farm: '🧤 STICKY FINGERS 🧤',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductST.jpg',
+                            video: 'VideoST.mp4',
+                            description: '🔥 Mousseux STICKY FINGERS 🔥 ',
+                            tarifs: [
+                                { weight: '25g', price: 90.00 },
+                                { weight: '50g', price: 160.00 },
+                                { weight: '100g', price: 280.00 },
+                            ]
+                        },
                         /* {
                             id: 'NICOLE KUSH 🌱',
                             flag: '🇪🇸',
@@ -163,7 +179,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 300.00 },
                             ]
                         }, */
-                        {
+                      /*   {
                             id: 'ORANGINHASH',
                             flag: '🇪🇸',
                             name: 'ORANGINHASH 🍫',
@@ -178,7 +194,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 170.00 },
                                 { weight: '100g', price: 290.00 },
                             ]
-                        },
+                        }, */
                         /* {
                             id: 'ICE CREAM CAKE 🧁',
                             flag: '🇪🇸',
@@ -239,6 +255,23 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '',
                     products: [
                          {
+                            id: 'VR6 ☢️',
+                            flag: '🇲🇦',
+                            name: 'VR6 ☢️',
+                            farm: '💣 BBM FARMS 💣',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductVR.jpg',
+                            video: 'VideoVR.mp4',
+                            description: '☀️ 73/160U ☀️ \n Notes boisées est curée maison 🧑‍🍳',
+                            tarifs: [
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 140.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 440.00 },
+                            ]
+                        },
+                        /*  {
                             id: 'SHERBIDDEN 🍹🍦🍑🍌🍓',
                             flag: '💎',
                             name: '🍑🍌🍓 SHERBIDDEN 🍹🍦',
@@ -254,7 +287,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 250.00 },
                                 { weight: '100g', price: 440.00 },
                             ]
-                        },
+                        }, */
                          /*  {
                             id: '🥇 73U ',
                             flag: '💎',
