@@ -158,9 +158,9 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoST.mp4',
                             description: '🔥 Mousseux STICKY FINGERS 🔥 ',
                             tarifs: [
-                                { weight: '25g', price: 90.00 },
-                                { weight: '50g', price: 160.00 },
-                                { weight: '100g', price: 280.00 },
+                                { weight: '25g', price: 100.00 },
+                                { weight: '50g', price: 180.00 },
+                                { weight: '100g', price: 310.00 },
                             ]
                         },
                         /* {
