@@ -148,19 +148,19 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '',
                     products: [
                         {
-                            id: 'Mousseux',
+                            id: 'MARIO BROS',
                             flag: '🇪🇸',
-                            name: 'Mousseux 🧼',
-                            farm: '🧤 STICKY FINGERS 🧤',
+                            name: 'MARIO BROS 🍄',
+                            farm: '🧤 HEDR 🧤',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'ProductST.jpg',
-                            video: 'VideoST.mp4',
-                            description: '🔥 Mousseux STICKY FINGERS 🔥 ',
+                            image: 'ProductMB.jpg',
+                            video: 'VideoMB.mp4',
+                            description: '🔥 Mousseux HEDR 🔥 ',
                             tarifs: [
-                                { weight: '25g', price: 100.00 },
-                                { weight: '50g', price: 180.00 },
-                                { weight: '100g', price: 310.00 },
+                                { weight: '25g', price: 80.00 },
+                                { weight: '50g', price: 150.00 },
+                                { weight: '100g', price: 250.00 },
                             ]
                         },
                         /* {
