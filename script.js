@@ -94,10 +94,10 @@ document.addEventListener('DOMContentLoaded', function () {
                     video: 'VideoSnow.mp4',
                     description: 'Notre foudre est dispo la team 💥 \n\n Qualité qui frappe fort 🥊🔥',
                     tarifs: [
-                        { weight: '1g', price: 60.00 },
-                        { weight: '2g', price: 110.00 },
+                        { weight: '1g', price: 50.00 },
+                        { weight: '2g', price: 100.00 },
                         { weight: '5g', price: 220.00 },
-                        { weight: '10g', price: 400.00 },
+                        { weight: '10g', price: 380.00 },
                     ]
                 },
             
@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
-                         {
+                        /*  {
                             id: 'VR6 ☢️',
                             flag: '🇲🇦',
                             name: 'VR6 ☢️',
@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 250.00 },
                                 { weight: '100g', price: 440.00 },
                             ]
-                        },
+                        }, */
                         /*  {
                             id: 'SHERBIDDEN 🍹🍦🍑🍌🍓',
                             flag: '💎',
