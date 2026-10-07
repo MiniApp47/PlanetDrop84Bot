@@ -668,6 +668,23 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
+                        {
+                            id: 'PLASMA STATIC 🌟',
+                            flag: '💎',
+                            name: 'PLASMA STATIC 🌟',
+                            farm: '🔥 GOLD MOUNTAINS FARMS 🔥',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductPS.jpg',
+                            video: 'VideoPS.mp4',
+                            description: '🔥🚀PLASMA STATIC DE CHEZ GOLDEN MOUNTAIN FARMZ 🔥 \n MADE IN 🇺🇸🚀',
+                            tarifs: [
+                                { weight: '5g', price: 90.00 },
+                                { weight: '10g', price: 180.00 },
+                                { weight: '25g', price: 350.00 },
+                                { weight: '50g', price: 700.00 },
+                            ]
+                        },
                       /*  {
                             id: 'STATIC RED VELVET 🌟',
                             flag: '💎',
@@ -710,6 +727,40 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
+                        {
+                            id: 'G-CAKE',
+                            flag: '🇺🇸',
+                            name: 'G-CAKE 🎂',
+                            farm: '🇺🇸 NO FARM',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductGC.png',
+                            video: 'VideoGC.mp4',
+                            description: '🇺🇸🔥 CALI US 🇺🇸🔥 \n MADE in 🇺🇸',
+                            tarifs: [
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 380.00 },
+                                { weight: '100g', price: 700.00 },
+                            ]
+                        },
+                        {
+                            id: 'TROPICANA-POISON',
+                            flag: '🇺🇸',
+                            name: 'TROPICANA-POISON 🦠',
+                            farm: '🇺🇸 NO FARM',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductTP.png',
+                            video: 'VideoTP.mp4',
+                            description: '🇺🇸🔥 CALI US 🇺🇸🔥 \n MADE in 🇺🇸',
+                            tarifs: [
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 380.00 },
+                                { weight: '100g', price: 700.00 },
+                            ]
+                        }
                          /* {
                             id: 'BLUE BERRY 🥞',
                             flag: '🇺🇸',
