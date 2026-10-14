@@ -254,6 +254,24 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
+                        {
+                            id: 'DRY-SIFT 90u  ☢️',
+                            flag: '🇲🇦',
+                            name: 'DRY-SIFT 90u  ☢️',
+                            farm: '🍁 No Farm 🍁',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'Product90.jpg',
+                            images: ['Product901.jpg'],
+                            video: 'Video90.mp4',
+                            description: 'Strains disponible :\n\n -Do-Si-Dos\n -Cherry-pie\n\n ☀️ 90U ☀️ \n Notes boisées est curée maison 🧑‍🍳',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 120.00 },
+                                { weight: '50g', price: 200.00 },
+                                { weight: '100g', price: 380.00 },
+                            ]
+                        }
                         /*  {
                             id: 'VR6 ☢️',
                             flag: '🇲🇦',
@@ -663,11 +681,70 @@ document.addEventListener('DOMContentLoaded', function () {
                     ]
                 },
                 {
+                    id: 'FRESH FROZEN US🇺🇸',
+                    name: 'FRESH FROZEN US 🇺🇸',
+                    image: '',
+                    badgeText: '',
+                    products: [
+                        {
+                            id: '🔥🇺🇸OLIVE',
+                            flag: '💎',
+                            name: '🔥 OLIVE 🫒' ,
+                            farm: '🌾 No Farm 🌾',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductO.jpg',
+                            video: 'VideoO.mp4',
+                            description: '🔥🚀 FRESH FROZEN 🔥 \n MADE IN 🇺🇸🚀',
+                            tarifs: [
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 220.00 },
+                                { weight: '50g', price: 500.00 },
+                            ]
+                        },
+                      /*  {
+                            id: 'STATIC RED VELVET 🌟',
+                            flag: '💎',
+                            name: 'STATIC RED VELVET 🌟',
+                            farm: '🔥 GOLD MOUNTAINS FARMS 🔥',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductST.jpg',
+                            video: 'VideoST.mp4',
+                            description: '🚨 Drop exclusif janvier 2026 🚨 \n\n 🔥 STATIC RED VELVET 135-73U - une expérience inédite dans le monde du cannabis. Pour les connaisseurs, chaque gramme est une œuvre d’art soigneusement cultivée pour des arômes et effets d’exception.\n\n 🔒 Stocks limités, ne manquez pas votre chance de découvrir cette variété unique ! ',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 150.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 420.00 },
+                            ]
+                        }, */
+                    ]
+                },
+                {
                     id: 'Static',
                     name: 'Static ⛈️',
                     image: '',
                     badgeText: '',
                     products: [
+                        {
+                            id: '🔥STATIC',
+                            flag: '💎',
+                            name: '🍯 STATIC 🍯',
+                            farm: '🔥 LOS PEPES FARMS 🔥',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductS.jpg',
+                            video: 'VideoS.mp4',
+                            description: '🔥🚀 STATIC DE CHEZ LOS PEPES FARMS 🔥',
+                            tarifs: [
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 150.00 },
+                                { weight: '50g', price: 240.00 },
+                                { weight: '100g', price: 440.00 },
+                            ]
+                        },
                         {
                             id: 'PLASMA STATIC 🌟',
                             flag: '💎',
