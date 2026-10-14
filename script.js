@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: '',
                     products: [
-                        {
+                      /*   {
                             id: 'MARIO BROS',
                             flag: '🇪🇸',
                             name: 'MARIO BROS 🍄',
@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 150.00 },
                                 { weight: '100g', price: 250.00 },
                             ]
-                        },
+                        }, */
                         /* {
                             id: 'NICOLE KUSH 🌱',
                             flag: '🇪🇸',
@@ -257,7 +257,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         {
                             id: 'DRY-SIFT 90u  ☢️',
                             flag: '🇲🇦',
-                            name: 'DRY-SIFT 90u  ☢️',
+                            name: 'DRY-SIFT 90u ☢️',
                             farm: '🍁 No Farm 🍁',
                             promoEligible: true,
                             type: 'Filtrer',
@@ -266,13 +266,432 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'Video90.mp4',
                             description: 'Strains disponible :\n\n -Do-Si-Dos\n -Cherry-pie\n\n ☀️ 90U ☀️ \n Notes boisées est curée maison 🧑‍🍳',
                             tarifs: [
+                                { weight: '10g', price: 60.00 },
+                                { weight: '25g', price: 100.00 },
+                                { weight: '50g', price: 180.00 },
+                                { weight: '100g', price: 350.00 },
+                            ]
+                        }
+                    ]
+                },
+                {
+                    id: 'FRESH FROZEN US🇺🇸',
+                    name: 'FRESH FROZEN US 🇺🇸',
+                    image: '',
+                    badgeText: '',
+                    products: [
+                        {
+                            id: '🔥🇺🇸OLIVE',
+                            flag: '💎',
+                            name: '🔥 OLIVE 🫒' ,
+                            farm: '🌾 No Farm 🌾',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductO.jpg',
+                            video: 'VideoO.mp4',
+                            description: '🔥🚀 FRESH FROZEN 🔥 \n MADE IN 🇺🇸🚀',
+                            tarifs: [
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 220.00 },
+                                { weight: '50g', price: 500.00 },
+                            ]
+                        },
+                      /*  {
+                            id: 'STATIC RED VELVET 🌟',
+                            flag: '💎',
+                            name: 'STATIC RED VELVET 🌟',
+                            farm: '🔥 GOLD MOUNTAINS FARMS 🔥',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductST.jpg',
+                            video: 'VideoST.mp4',
+                            description: '🚨 Drop exclusif janvier 2026 🚨 \n\n 🔥 STATIC RED VELVET 135-73U - une expérience inédite dans le monde du cannabis. Pour les connaisseurs, chaque gramme est une œuvre d’art soigneusement cultivée pour des arômes et effets d’exception.\n\n 🔒 Stocks limités, ne manquez pas votre chance de découvrir cette variété unique ! ',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 150.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 420.00 },
+                            ]
+                        }, */
+                    ]
+                },
+                {
+                    id: 'Static',
+                    name: 'Static ⛈️',
+                    image: '',
+                    badgeText: '',
+                    products: [
+                        {
+                            id: '🔥STATIC',
+                            flag: '💎',
+                            name: '🍯 STATIC 🍯',
+                            farm: '🔥 LOS PEPES FARMS 🔥',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductS.jpg',
+                            video: 'VideoS.mp4',
+                            description: '🔥🚀 STATIC DE CHEZ LOS PEPES FARMS 🔥',
+                            tarifs: [
                                 { weight: '10g', price: 70.00 },
                                 { weight: '25g', price: 120.00 },
                                 { weight: '50g', price: 200.00 },
                                 { weight: '100g', price: 380.00 },
                             ]
+                        },
+                        {
+                            id: 'PLASMA STATIC 🌟',
+                            flag: '💎',
+                            name: 'PLASMA STATIC 🌟',
+                            farm: '🔥 GOLD MOUNTAINS FARMS 🔥',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductPS.jpg',
+                            video: 'VideoPS.mp4',
+                            description: '🔥🚀PLASMA STATIC DE CHEZ GOLDEN MOUNTAIN FARMZ 🔥 \n MADE IN 🇺🇸🚀',
+                            tarifs: [
+                                { weight: '5g', price: 90.00 },
+                                { weight: '10g', price: 180.00 },
+                                { weight: '25g', price: 350.00 },
+                                { weight: '50g', price: 700.00 },
+                            ]
+                        },
+                      /*  {
+                            id: 'STATIC RED VELVET 🌟',
+                            flag: '💎',
+                            name: 'STATIC RED VELVET 🌟',
+                            farm: '🔥 GOLD MOUNTAINS FARMS 🔥',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductST.jpg',
+                            video: 'VideoST.mp4',
+                            description: '🚨 Drop exclusif janvier 2026 🚨 \n\n 🔥 STATIC RED VELVET 135-73U - une expérience inédite dans le monde du cannabis. Pour les connaisseurs, chaque gramme est une œuvre d’art soigneusement cultivée pour des arômes et effets d’exception.\n\n 🔒 Stocks limités, ne manquez pas votre chance de découvrir cette variété unique ! ',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 150.00 },
+                                { weight: '50g', price: 250.00 },
+                                { weight: '100g', price: 420.00 },
+                            ]
+                        }, */
+                    ]
+                }
+      
+     
+               
+            ]
+        },
+
+                // ============================================================
+        // CATEGORIE 1 : WEED 🌿
+        // ============================================================
+        {
+            id: 'FLEURS',
+            name: '🌿 FLEURS',
+            type: '🌿 FLEURS',
+            quality: '🌿 FLEURS',
+            image: 'CategWeed.png', // Ton image de catégorie Weed
+
+            farms: [
+                {
+                    id: 'USA',
+                    name: 'Cali USA 🇺🇸',
+                    image: '',
+                    badgeText: '',
+                    products: [
+                        {
+                            id: 'G-CAKE',
+                            flag: '🇺🇸',
+                            name: 'G-CAKE 🎂',
+                            farm: '🇺🇸 NO FARM',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductGC.png',
+                            video: 'VideoGC.mp4',
+                            description: '🇺🇸🔥 CALI US 🇺🇸🔥 \n MADE in 🇺🇸',
+                            tarifs: [
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 380.00 },
+                                { weight: '100g', price: 700.00 },
+                            ]
+                        },
+                        {
+                            id: 'TROPICANA-POISON',
+                            flag: '🇺🇸',
+                            name: 'TROPICANA-POISON 🦠',
+                            farm: '🇺🇸 NO FARM',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductTP.png',
+                            video: 'VideoTP.mp4',
+                            description: '🇺🇸🔥 CALI US 🇺🇸🔥 \n MADE in 🇺🇸',
+                            tarifs: [
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 380.00 },
+                                { weight: '100g', price: 700.00 },
+                            ]
                         }
-                        /*  {
+                         /* {
+                            id: 'BLUE BERRY 🥞',
+                            flag: '🇺🇸',
+                            name: 'BLUE BERRY 🫐',
+                            farm: '🇺🇸 NO FARM',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductBlu.png',
+                            video: 'VideoBlu.mp4',
+                            description: '🚨 NOUVEAUTÉ – CALI US 🚨 \n Certifié californienne 100% 🇺🇸🍭🍯',
+                            tarifs: [
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 220.00 },
+                                { weight: '50g', price: 380.00 },
+                                { weight: '100g', price: 680.00 },
+                            ]
+                        } */
+                         /* {
+                            id: 'Biscotti 🥞',
+                            flag: '🇺🇸',
+                            name: 'Biscotti 🥞',
+                            farm: '🇺🇸 NO FARM',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductBis.jpg',
+                            video: 'VideoBis.mp4',
+                            description: '🚨 NOUVEAUTÉ – CALI US 🚨 \n La frappe venue tout droit de Californie 🇺🇸 \n Qualité premium, grosse puissance 💥 \n\n Dispo maintenant ⏳🔥',
+                            tarifs: [
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 340.00 },
+                                { weight: '100g', price: 580.00 },
+                            ]
+                        }, */
+                       /*   {
+                            id: '🔥 Cali US 🇺🇸 🔥',
+                            flag: '🇺🇸',
+                            name: '🔥 Cali US 🇺🇸 🔥',
+                            farm: '🇺🇸 NO FARM',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductCali.png',
+                            video: 'VideoCali.mp4',
+                            description: 'Qualité premium, dispo maintenant. ✨',
+                            tarifs: [
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 180.00 },
+                                { weight: '50g', price: 320.00 },
+                                { weight: '100g', price: 550.00 },
+                            ]
+                        }, */
+                       /*   {
+                            id: 'Cherry.R 🍒',
+                            flag: '🇺🇸',
+                            name: 'Cherry.R 🍒',
+                            farm: '🇺🇸 NO FARM',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductCherry.jpg',
+                            video: 'VideoCherry.mp4',
+                            description: '🚨 NOUVEAUTÉ – CALI US 🚨 \n\n La frappe venue tout droit de Californie 🇺🇸 \n Qualité premium, grosse puissance 💥 \n\n Dispo maintenant ⏳🔥',
+                            tarifs: [
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 340.00 },
+                                { weight: '100g', price: 580.00 },
+                            ]
+                        },
+                         {
+                            id: 'Glacier 🍦',
+                            flag: '🇺🇸',
+                            name: 'Glacier 🍦',
+                            farm: '🇺🇸 NO FARM',
+                            promoEligible: false,
+                            type: 'Weed',
+                            image: 'ProductGlacier.jpg',
+                            video: 'VideoGlacier.mp4',
+                            description: '🚨 NOUVEAUTÉ – CALI US 🚨 \n\n La frappe venue tout droit de Californie 🇺🇸 \n Qualité premium, grosse puissance 💥 \n\n Dispo maintenant ⏳🔥',
+                            tarifs: [
+                               { weight: '10g', price: 100.00 },
+                               { weight: '25g', price: 200.00 },
+                               { weight: '50g', price: 340.00 },
+                               { weight: '100g', price: 580.00 },
+                           ]
+                        },
+                    */
+                    ]
+                },
+                   // --- Sous-Catégorie : CALI USA 🇺🇸 (J'y ai mis tes Wizard Trees) ---
+                   {
+                    id: 'Amnesia',
+                    name: 'Amnesia 💐',
+                    image: '',
+                    badgeText: '',
+                    products: [
+                      /*   {
+                            id: 'Amnesia premium',
+                            flag: '🇺🇸',
+                            name: 'Amnesia premium 🏆',
+                            farm: '🌿 NO FARM',
+                            promoEligible: false,
+                            type: 'Amne',
+                            image: 'ProductAmne.jpg',
+                            video: 'VideoAmne.mp4',
+                            description: '🔥 NOUVEAUTÉ DISPONIBLE 🔥 \n\n ⚡ Foudre Damnesia premium ⚡ \n Arôme puissant • Qualité sélectionnée 🌿 \n\n Une fleur qui frappe fort par son goût et sa qualité ✨',
+                            tarifs: [
+                               { weight: '10g', price: 80.00 },
+                               { weight: '25g', price: 160.00 },
+                               { weight: '50g', price: 280.00 },
+                               { weight: '100g', price: 500.00 },
+                           ]
+                        }, */
+                    ]
+                }
+              
+            ]
+        },
+        // ============================================================
+        // CATEGORIE 4 :  CALI 🔝
+        // ============================================================
+       /*  {
+            id: 'CALI 🔝',
+            name: 'CALI 🔝',
+            type: 'CALI 🔝',
+            quality: 'CALI 🔝',
+            image: 'CategCali.png', 
+
+            farms: [
+                // --- Sous-Catégorie : CALI USA 🇺🇸 (J'y ai mis tes Wizard Trees) ---
+
+            ]
+        } */
+
+
+                // 4. 120U PREMIUM (Avec les options de goût qu'on a ajoutées)
+          /*       {
+                    id: '120U_PREMIUM',
+                    name: '120U PREMIUM 🛖',
+                    image: '',
+                    badgeText: 'Top Qualité',
+                    products: [
+                        {
+                            id: '120u',
+                            flag: '🇲🇦',
+                            name: '🛖 120u Premium 2026',
+                            farm: 'DHF FARMZ ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductPapaya.png',
+                            images: [
+                                'ProductGrandDaddy.jpg',
+                                'ProductPapaya.jpg',
+                            ],
+                            video: 'VideoPapaya.mov',
+                            description: 'La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
+
+                            // 👇 NOUVELLE STRUCTURE
+                            variantTitle: 'Choisis ton goût 🥣 :',
+                            jars: [
+                                { name: 'PAPAYA BOMB', emoji: '🥤🧨', colorClass: 'style-red' },
+                                { name: 'LA GRANDADDY', emoji: '☔️☔️', colorClass: 'style-purple' }
+                            ],
+
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '50g', price: 230.00 },
+                                { weight: '100g', price: 450.00 },
+                            ]
+                        },
+                        {
+                            id: 'PURPLE',
+                            flag: '🇲🇦',
+                            name: 'PURPLE CREAM',
+                            farm: 'DHF FARMZ ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductCream.png',
+                            video: 'VideoCream.mov',
+                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '50g', price: 230.00 },
+                                { weight: '100g', price: 450.00 },
+                            ]
+                        },
+                        {
+                            id: 'BLUE ZUSHI',
+                            flag: '🇲🇦',
+                            name: 'BLUE ZUSHI',
+                            farm: 'DHF FARMZ ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductBlueZ.png',
+                            video: 'VideoBlueZ.mov',
+                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '50g', price: 230.00 },
+                                { weight: '100g', price: 450.00 },
+                            ]
+                        },
+                        {
+                            id: 'CANDY GANE',
+                            flag: '🇲🇦',
+                            name: 'CANDY GANE',
+                            farm: 'DHF FARMZ ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductGane.png',
+                            video: 'VideoGane.mov',
+                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '50g', price: 230.00 },
+                                { weight: '100g', price: 450.00 },
+                            ]
+                        },
+                        {
+                            id: 'HEAD BANGER',
+                            flag: '🇲🇦',
+                            name: 'HEAD BANGER',
+                            farm: 'DHF FARMZ ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductHead.png',
+                            video: 'VideoHead.mov',
+                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '50g', price: 230.00 },
+                                { weight: '100g', price: 450.00 },
+                            ]
+                        },
+                        {
+                            id: 'UNICORNZ ÉLITE',
+                            flag: '🇲🇦',
+                            name: 'UNICORNZ ÉLITE',
+                            farm: 'DHF FARMZ ✨',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductUni.png',
+                            video: 'VideoUni.mov',
+                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
+                            tarifs: [
+                                { weight: '10g', price: 70.00 },
+                                { weight: '25g', price: 170.00 },
+                                { weight: '50g', price: 230.00 },
+                                { weight: '100g', price: 450.00 },
+                            ]
+                        },
+                    ]
+                },
+       */
+
+   /*  {
                             id: 'VR6 ☢️',
                             flag: '🇲🇦',
                             name: 'VR6 ☢️',
@@ -678,426 +1097,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 370.00 },
                             ]
                         } */
-                    ]
-                },
-                {
-                    id: 'FRESH FROZEN US🇺🇸',
-                    name: 'FRESH FROZEN US 🇺🇸',
-                    image: '',
-                    badgeText: '',
-                    products: [
-                        {
-                            id: '🔥🇺🇸OLIVE',
-                            flag: '💎',
-                            name: '🔥 OLIVE 🫒' ,
-                            farm: '🌾 No Farm 🌾',
-                            promoEligible: true,
-                            type: 'Filtrer',
-                            image: 'ProductO.jpg',
-                            video: 'VideoO.mp4',
-                            description: '🔥🚀 FRESH FROZEN 🔥 \n MADE IN 🇺🇸🚀',
-                            tarifs: [
-                                { weight: '5g', price: 70.00 },
-                                { weight: '10g', price: 120.00 },
-                                { weight: '25g', price: 220.00 },
-                                { weight: '50g', price: 500.00 },
-                            ]
-                        },
-                      /*  {
-                            id: 'STATIC RED VELVET 🌟',
-                            flag: '💎',
-                            name: 'STATIC RED VELVET 🌟',
-                            farm: '🔥 GOLD MOUNTAINS FARMS 🔥',
-                            promoEligible: true,
-                            type: 'Filtrer',
-                            image: 'ProductST.jpg',
-                            video: 'VideoST.mp4',
-                            description: '🚨 Drop exclusif janvier 2026 🚨 \n\n 🔥 STATIC RED VELVET 135-73U - une expérience inédite dans le monde du cannabis. Pour les connaisseurs, chaque gramme est une œuvre d’art soigneusement cultivée pour des arômes et effets d’exception.\n\n 🔒 Stocks limités, ne manquez pas votre chance de découvrir cette variété unique ! ',
-                            tarifs: [
-                                { weight: '10g', price: 70.00 },
-                                { weight: '25g', price: 150.00 },
-                                { weight: '50g', price: 250.00 },
-                                { weight: '100g', price: 420.00 },
-                            ]
-                        }, */
-                    ]
-                },
-                {
-                    id: 'Static',
-                    name: 'Static ⛈️',
-                    image: '',
-                    badgeText: '',
-                    products: [
-                        {
-                            id: '🔥STATIC',
-                            flag: '💎',
-                            name: '🍯 STATIC 🍯',
-                            farm: '🔥 LOS PEPES FARMS 🔥',
-                            promoEligible: true,
-                            type: 'Filtrer',
-                            image: 'ProductS.jpg',
-                            video: 'VideoS.mp4',
-                            description: '🔥🚀 STATIC DE CHEZ LOS PEPES FARMS 🔥',
-                            tarifs: [
-                                { weight: '10g', price: 80.00 },
-                                { weight: '25g', price: 150.00 },
-                                { weight: '50g', price: 240.00 },
-                                { weight: '100g', price: 440.00 },
-                            ]
-                        },
-                        {
-                            id: 'PLASMA STATIC 🌟',
-                            flag: '💎',
-                            name: 'PLASMA STATIC 🌟',
-                            farm: '🔥 GOLD MOUNTAINS FARMS 🔥',
-                            promoEligible: true,
-                            type: 'Filtrer',
-                            image: 'ProductPS.jpg',
-                            video: 'VideoPS.mp4',
-                            description: '🔥🚀PLASMA STATIC DE CHEZ GOLDEN MOUNTAIN FARMZ 🔥 \n MADE IN 🇺🇸🚀',
-                            tarifs: [
-                                { weight: '5g', price: 90.00 },
-                                { weight: '10g', price: 180.00 },
-                                { weight: '25g', price: 350.00 },
-                                { weight: '50g', price: 700.00 },
-                            ]
-                        },
-                      /*  {
-                            id: 'STATIC RED VELVET 🌟',
-                            flag: '💎',
-                            name: 'STATIC RED VELVET 🌟',
-                            farm: '🔥 GOLD MOUNTAINS FARMS 🔥',
-                            promoEligible: true,
-                            type: 'Filtrer',
-                            image: 'ProductST.jpg',
-                            video: 'VideoST.mp4',
-                            description: '🚨 Drop exclusif janvier 2026 🚨 \n\n 🔥 STATIC RED VELVET 135-73U - une expérience inédite dans le monde du cannabis. Pour les connaisseurs, chaque gramme est une œuvre d’art soigneusement cultivée pour des arômes et effets d’exception.\n\n 🔒 Stocks limités, ne manquez pas votre chance de découvrir cette variété unique ! ',
-                            tarifs: [
-                                { weight: '10g', price: 70.00 },
-                                { weight: '25g', price: 150.00 },
-                                { weight: '50g', price: 250.00 },
-                                { weight: '100g', price: 420.00 },
-                            ]
-                        }, */
-                    ]
-                }
-      
-     
-               
-            ]
-        },
-
-                // ============================================================
-        // CATEGORIE 1 : WEED 🌿
-        // ============================================================
-        {
-            id: 'FLEURS',
-            name: '🌿 FLEURS',
-            type: '🌿 FLEURS',
-            quality: '🌿 FLEURS',
-            image: 'CategWeed.png', // Ton image de catégorie Weed
-
-            farms: [
-                {
-                    id: 'USA',
-                    name: 'Cali USA 🇺🇸',
-                    image: '',
-                    badgeText: '',
-                    products: [
-                        {
-                            id: 'G-CAKE',
-                            flag: '🇺🇸',
-                            name: 'G-CAKE 🎂',
-                            farm: '🇺🇸 NO FARM',
-                            promoEligible: false,
-                            type: 'Weed',
-                            image: 'ProductGC.png',
-                            video: 'VideoGC.mp4',
-                            description: '🇺🇸🔥 CALI US 🇺🇸🔥 \n MADE in 🇺🇸',
-                            tarifs: [
-                                { weight: '10g', price: 100.00 },
-                                { weight: '25g', price: 200.00 },
-                                { weight: '50g', price: 380.00 },
-                                { weight: '100g', price: 700.00 },
-                            ]
-                        },
-                        {
-                            id: 'TROPICANA-POISON',
-                            flag: '🇺🇸',
-                            name: 'TROPICANA-POISON 🦠',
-                            farm: '🇺🇸 NO FARM',
-                            promoEligible: false,
-                            type: 'Weed',
-                            image: 'ProductTP.png',
-                            video: 'VideoTP.mp4',
-                            description: '🇺🇸🔥 CALI US 🇺🇸🔥 \n MADE in 🇺🇸',
-                            tarifs: [
-                                { weight: '10g', price: 100.00 },
-                                { weight: '25g', price: 200.00 },
-                                { weight: '50g', price: 380.00 },
-                                { weight: '100g', price: 700.00 },
-                            ]
-                        }
-                         /* {
-                            id: 'BLUE BERRY 🥞',
-                            flag: '🇺🇸',
-                            name: 'BLUE BERRY 🫐',
-                            farm: '🇺🇸 NO FARM',
-                            promoEligible: false,
-                            type: 'Weed',
-                            image: 'ProductBlu.png',
-                            video: 'VideoBlu.mp4',
-                            description: '🚨 NOUVEAUTÉ – CALI US 🚨 \n Certifié californienne 100% 🇺🇸🍭🍯',
-                            tarifs: [
-                                { weight: '10g', price: 120.00 },
-                                { weight: '25g', price: 220.00 },
-                                { weight: '50g', price: 380.00 },
-                                { weight: '100g', price: 680.00 },
-                            ]
-                        } */
-                         /* {
-                            id: 'Biscotti 🥞',
-                            flag: '🇺🇸',
-                            name: 'Biscotti 🥞',
-                            farm: '🇺🇸 NO FARM',
-                            promoEligible: false,
-                            type: 'Weed',
-                            image: 'ProductBis.jpg',
-                            video: 'VideoBis.mp4',
-                            description: '🚨 NOUVEAUTÉ – CALI US 🚨 \n La frappe venue tout droit de Californie 🇺🇸 \n Qualité premium, grosse puissance 💥 \n\n Dispo maintenant ⏳🔥',
-                            tarifs: [
-                                { weight: '10g', price: 100.00 },
-                                { weight: '25g', price: 200.00 },
-                                { weight: '50g', price: 340.00 },
-                                { weight: '100g', price: 580.00 },
-                            ]
-                        }, */
-                       /*   {
-                            id: '🔥 Cali US 🇺🇸 🔥',
-                            flag: '🇺🇸',
-                            name: '🔥 Cali US 🇺🇸 🔥',
-                            farm: '🇺🇸 NO FARM',
-                            promoEligible: false,
-                            type: 'Weed',
-                            image: 'ProductCali.png',
-                            video: 'VideoCali.mp4',
-                            description: 'Qualité premium, dispo maintenant. ✨',
-                            tarifs: [
-                                { weight: '10g', price: 80.00 },
-                                { weight: '25g', price: 180.00 },
-                                { weight: '50g', price: 320.00 },
-                                { weight: '100g', price: 550.00 },
-                            ]
-                        }, */
-                       /*   {
-                            id: 'Cherry.R 🍒',
-                            flag: '🇺🇸',
-                            name: 'Cherry.R 🍒',
-                            farm: '🇺🇸 NO FARM',
-                            promoEligible: false,
-                            type: 'Weed',
-                            image: 'ProductCherry.jpg',
-                            video: 'VideoCherry.mp4',
-                            description: '🚨 NOUVEAUTÉ – CALI US 🚨 \n\n La frappe venue tout droit de Californie 🇺🇸 \n Qualité premium, grosse puissance 💥 \n\n Dispo maintenant ⏳🔥',
-                            tarifs: [
-                                { weight: '10g', price: 100.00 },
-                                { weight: '25g', price: 200.00 },
-                                { weight: '50g', price: 340.00 },
-                                { weight: '100g', price: 580.00 },
-                            ]
-                        },
-                         {
-                            id: 'Glacier 🍦',
-                            flag: '🇺🇸',
-                            name: 'Glacier 🍦',
-                            farm: '🇺🇸 NO FARM',
-                            promoEligible: false,
-                            type: 'Weed',
-                            image: 'ProductGlacier.jpg',
-                            video: 'VideoGlacier.mp4',
-                            description: '🚨 NOUVEAUTÉ – CALI US 🚨 \n\n La frappe venue tout droit de Californie 🇺🇸 \n Qualité premium, grosse puissance 💥 \n\n Dispo maintenant ⏳🔥',
-                            tarifs: [
-                               { weight: '10g', price: 100.00 },
-                               { weight: '25g', price: 200.00 },
-                               { weight: '50g', price: 340.00 },
-                               { weight: '100g', price: 580.00 },
-                           ]
-                        },
-                    */
-                    ]
-                },
-                   // --- Sous-Catégorie : CALI USA 🇺🇸 (J'y ai mis tes Wizard Trees) ---
-                   {
-                    id: 'Amnesia',
-                    name: 'Amnesia 💐',
-                    image: '',
-                    badgeText: '',
-                    products: [
-                      /*   {
-                            id: 'Amnesia premium',
-                            flag: '🇺🇸',
-                            name: 'Amnesia premium 🏆',
-                            farm: '🌿 NO FARM',
-                            promoEligible: false,
-                            type: 'Amne',
-                            image: 'ProductAmne.jpg',
-                            video: 'VideoAmne.mp4',
-                            description: '🔥 NOUVEAUTÉ DISPONIBLE 🔥 \n\n ⚡ Foudre Damnesia premium ⚡ \n Arôme puissant • Qualité sélectionnée 🌿 \n\n Une fleur qui frappe fort par son goût et sa qualité ✨',
-                            tarifs: [
-                               { weight: '10g', price: 80.00 },
-                               { weight: '25g', price: 160.00 },
-                               { weight: '50g', price: 280.00 },
-                               { weight: '100g', price: 500.00 },
-                           ]
-                        }, */
-                    ]
-                }
-              
-            ]
-        },
-        // ============================================================
-        // CATEGORIE 4 :  CALI 🔝
-        // ============================================================
-       /*  {
-            id: 'CALI 🔝',
-            name: 'CALI 🔝',
-            type: 'CALI 🔝',
-            quality: 'CALI 🔝',
-            image: 'CategCali.png', 
-
-            farms: [
-                // --- Sous-Catégorie : CALI USA 🇺🇸 (J'y ai mis tes Wizard Trees) ---
-
-            ]
-        } */
-
-
-                // 4. 120U PREMIUM (Avec les options de goût qu'on a ajoutées)
-          /*       {
-                    id: '120U_PREMIUM',
-                    name: '120U PREMIUM 🛖',
-                    image: '',
-                    badgeText: 'Top Qualité',
-                    products: [
-                        {
-                            id: '120u',
-                            flag: '🇲🇦',
-                            name: '🛖 120u Premium 2026',
-                            farm: 'DHF FARMZ ✨',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductPapaya.png',
-                            images: [
-                                'ProductGrandDaddy.jpg',
-                                'ProductPapaya.jpg',
-                            ],
-                            video: 'VideoPapaya.mov',
-                            description: 'La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
-
-                            // 👇 NOUVELLE STRUCTURE
-                            variantTitle: 'Choisis ton goût 🥣 :',
-                            jars: [
-                                { name: 'PAPAYA BOMB', emoji: '🥤🧨', colorClass: 'style-red' },
-                                { name: 'LA GRANDADDY', emoji: '☔️☔️', colorClass: 'style-purple' }
-                            ],
-
-                            tarifs: [
-                                { weight: '10g', price: 70.00 },
-                                { weight: '25g', price: 170.00 },
-                                { weight: '50g', price: 230.00 },
-                                { weight: '100g', price: 450.00 },
-                            ]
-                        },
-                        {
-                            id: 'PURPLE',
-                            flag: '🇲🇦',
-                            name: 'PURPLE CREAM',
-                            farm: 'DHF FARMZ ✨',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductCream.png',
-                            video: 'VideoCream.mov',
-                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
-                            tarifs: [
-                                { weight: '10g', price: 70.00 },
-                                { weight: '25g', price: 170.00 },
-                                { weight: '50g', price: 230.00 },
-                                { weight: '100g', price: 450.00 },
-                            ]
-                        },
-                        {
-                            id: 'BLUE ZUSHI',
-                            flag: '🇲🇦',
-                            name: 'BLUE ZUSHI',
-                            farm: 'DHF FARMZ ✨',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductBlueZ.png',
-                            video: 'VideoBlueZ.mov',
-                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
-                            tarifs: [
-                                { weight: '10g', price: 70.00 },
-                                { weight: '25g', price: 170.00 },
-                                { weight: '50g', price: 230.00 },
-                                { weight: '100g', price: 450.00 },
-                            ]
-                        },
-                        {
-                            id: 'CANDY GANE',
-                            flag: '🇲🇦',
-                            name: 'CANDY GANE',
-                            farm: 'DHF FARMZ ✨',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductGane.png',
-                            video: 'VideoGane.mov',
-                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
-                            tarifs: [
-                                { weight: '10g', price: 70.00 },
-                                { weight: '25g', price: 170.00 },
-                                { weight: '50g', price: 230.00 },
-                                { weight: '100g', price: 450.00 },
-                            ]
-                        },
-                        {
-                            id: 'HEAD BANGER',
-                            flag: '🇲🇦',
-                            name: 'HEAD BANGER',
-                            farm: 'DHF FARMZ ✨',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductHead.png',
-                            video: 'VideoHead.mov',
-                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
-                            tarifs: [
-                                { weight: '10g', price: 70.00 },
-                                { weight: '25g', price: 170.00 },
-                                { weight: '50g', price: 230.00 },
-                                { weight: '100g', price: 450.00 },
-                            ]
-                        },
-                        {
-                            id: 'UNICORNZ ÉLITE',
-                            flag: '🇲🇦',
-                            name: 'UNICORNZ ÉLITE',
-                            farm: 'DHF FARMZ ✨',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductUni.png',
-                            video: 'VideoUni.mov',
-                            description: '🛖 120u Premium 2026 \n\n La maison et connue 🏠🔥\n un super 120u prenium 🤝 \n Sec petant avec un goût assez fruité...',
-                            tarifs: [
-                                { weight: '10g', price: 70.00 },
-                                { weight: '25g', price: 170.00 },
-                                { weight: '50g', price: 230.00 },
-                                { weight: '100g', price: 450.00 },
-                            ]
-                        },
-                    ]
-                },
-       */
-
-   
     ];
 
     // --- VARIABLES D'ÉTAT ---
