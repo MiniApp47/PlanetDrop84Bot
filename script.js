@@ -255,6 +255,23 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '',
                     products: [
                         {
+                            id: '73u WATERLEMON 🍉',
+                            flag: '🇲🇦',
+                            name: '73u WATERLEMON 🍉',
+                            farm: '🍁 No Farm 🍁',
+                            promoEligible: true,
+                            type: 'Filtrer',
+                            image: 'ProductWL.jpg',
+                            video: 'VideoWL.mp4',
+                            description: '',
+                            tarifs: [
+                                { weight: '10g', price: 60.00 },
+                                { weight: '25g', price: 120.00 },
+                                { weight: '50g', price: 200.00 },
+                                { weight: '100g', price: 360.00 },
+                            ]
+                        },
+                       /*  {
                             id: 'DRY-SIFT 90u  ☢️',
                             flag: '🇲🇦',
                             name: 'DRY-SIFT 90u ☢️',
@@ -271,7 +288,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 180.00 },
                                 { weight: '100g', price: 350.00 },
                             ]
-                        }
+                        } */
                     ]
                 },
                 {
@@ -293,7 +310,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: '5g', price: 70.00 },
                                 { weight: '10g', price: 120.00 },
-                                { weight: '25g', price: 220.00 },
+                                { weight: '25g', price: 270.00 },
                                 { weight: '50g', price: 500.00 },
                             ]
                         },
